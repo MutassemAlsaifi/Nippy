@@ -1,0 +1,41 @@
+/* start the statistics section   */
+
+section.statistics {
+    background-color: #1D1D1D;
+    color: white;
+    padding: 4rem 0;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+section.statistics .contanir {
+    padding: 4.5rem 0;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+
+}
+
+section.statistics .contanir h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+
+}
+
+section.statistics .contanir h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: .5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* end the statistics section   */

@@ -1,0 +1,76 @@
+/* start Subscribe  section  */
+section.Subscribe {
+    background-color: #EDD9C9;
+    display: flex;
+    opacity: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+section.Subscribe .contant {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 2s;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.Subscribe .contant h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+}
+
+section.Subscribe .contant h2+p {
+    font-size: 1.5rem;
+    color: #666666;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+section.Subscribe .contant h2 p {
+    color: #95989A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+button {
+    height: 48px;
+
+    width: 30%;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #A4794E;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+}
+
+input {
+    height: 48px;
+    width: 69%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    outline: none;
+    border: 2px #1D1D1D solid;
+    padding: 0.5rem 0 0.5rem 1rem
+}
+
+.divimg {
+    transition: 2s;
+}
+
+.divimg img {
+    height: 100%;
+}
+
+/* end Subscribe  section  */

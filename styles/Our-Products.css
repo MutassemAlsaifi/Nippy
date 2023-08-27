@@ -1,0 +1,229 @@
+/* start Our Products sec  */
+section.OurProducts {
+    padding: 2rem 0 5rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+section.OurProducts .contanir {
+    width: 85%;
+    margin: auto;
+
+}
+
+section.OurProducts .contanir .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0 3rem;
+}
+
+section.OurProducts .contanir .header div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.OurProducts .contanir .header a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+section.OurProducts .contanir .header div i {
+    font-size: 1.2rem;
+}
+
+section.OurProducts .contanir .header h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+}
+
+section.OurProducts .contanir .header h3 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.contantimg,
+.contantimg2,
+.contantimg3,
+.contantimg4,
+.contantimg5 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+section.OurProducts .contanir img {
+    width: 100%;
+    height: 100%;
+}
+
+section.OurProducts .contanir .imgs {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+
+}
+
+section.OurProducts .contanir .imgs .bigimg {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: relative;
+}
+
+.imgs .bigimg div.contantimg {
+    position: absolute;
+    background-color: rgb(255, 255, 255, .3);
+    width: 100%;
+    bottom: 0;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    backdrop-filter: blur(3px);
+}
+
+
+section.OurProducts .contanir .imgs .bigimg:hover .contantimg {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pic2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs .pic2 div.contantimg2 {
+    background-color: rgb(255, 255, 255, .3);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(100%);
+    backdrop-filter: blur(3px);
+
+
+}
+
+section.OurProducts .contanir .imgs .pic2:hover div.contantimg2 {
+    transform: translateY(-0%);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+/* ---------------------------------- */
+.pic3 {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imgs .pic3 div.contantimg3 {
+    background-color: rgb(255, 255, 255, .3);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    backdrop-filter: blur(3px);
+}
+
+section.OurProducts .contanir .imgs .pic3:hover .contantimg3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ----------------------------------- */
+.pic4 {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imgs .pic4 div.contantimg4 {
+    background-color: rgb(255, 255, 255, .3);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(100%);
+    backdrop-filter: blur(3px);
+
+}
+
+
+section.OurProducts .contanir .imgs .pic4:hover div.contantimg4 {
+    transform: translateY(-0%);
+    opacity: 1;
+    visibility: visible;
+
+
+}
+
+/* ---------------------------- */
+.pic5 {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs .pic5 div.contantimg5 {
+    background-color: rgb(255, 255, 255, .3);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    transform: translateY(100%);
+    backdrop-filter: blur(3px);
+}
+
+
+section.OurProducts div .imgs .pic5:hover div.contantimg5 {
+    transform: translateY(-0%);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.box {
+    transition: 2s;
+}
+
+.rotate {
+    animation: scale 1s linear both;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+/* end product us section */

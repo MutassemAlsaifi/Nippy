@@ -1,0 +1,44 @@
+/* start associate section + */
+section.associate {
+    padding: 2rem 0;
+    width: 100%;
+    background-color: #F3F0DD;
+    opacity: 0;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+section.associate div.contanir {
+    width: 80%;
+    margin: auto;
+    padding: 8rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+}
+
+section.associate div.contanir :nth-child(even) {
+    width: 100px;
+    height: 20px;
+    transition: 2s;
+}
+
+section.associate div.contanir :nth-child(odd) {
+    width: 100px;
+    height: 20px;
+    transition: 2s;
+}
+
+.transformYTop {
+    transform: translateY(900%);
+
+}
+
+.transformYbuttom {
+    transform: translateY(-900%);
+
+}
+
+/* end associate section - */
