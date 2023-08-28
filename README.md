@@ -29,5 +29,3 @@ Contributions are welcome and encouraged! If you encounter issues or have sugges
 
 License
 This project is licensed under the MIT License. You're free to use and distribute the code. While not mandatory, providing attribution is appreciated.
-
-Explore the code, immerse yourself in the Front-End Nippy Makeup Store, and uncover the art of presenting beauty products in a captivating way! If you have questions or suggestions, feel free to open an issue. Enjoy the journey into the world of makeup!
